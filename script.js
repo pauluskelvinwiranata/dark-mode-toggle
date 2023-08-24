@@ -1,0 +1,1 @@
+const darkModeToggle=document.getElementById("dark-mode-toggle"),body=document.body;darkModeToggle.addEventListener("change",()=>{darkModeToggle.checked?body.classList.add("dark-mode"):body.classList.remove("dark-mode")});
